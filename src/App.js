@@ -28,7 +28,7 @@ function App() {
         <Route path="/Jeopardy" component={Jeopardy} />
         <Route
           path="/"
-          render={(props) => <Welcome {...props} name="Davey Struss" />}
+          render={(props) => <Welcome {...props} name="Abed Jamous" />}
         />
         <Route component={NotFound} />
       </Switch>
